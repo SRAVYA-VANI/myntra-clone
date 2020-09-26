@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    .a{
+        position: fixed;
+        left:920px ;
+        top: 20px;
+        padding: 5px 50px 5px 40px;
+        img src="position: left"
+    }
+    h1{
+        position:fixed;
+        margin-left: 80px;
+        margin-top: 3px;
+    }
+    .b{
+        list-style-type:none;
+        padding: 10px 20px 10px 20px;
+        position: fixed;
+        left: 100px;
+        top: 10px;
+    }
+    li{
+        float: left;
+        padding: 10px 20px 10px 20px;
+    }
+    .q{
+        position: fixed;
+        list-style-type:none;
+        right: 10px;
+        top: 10px;
+    }
+    li{
+        float: left;
+    }
+    #prev{
+
+    }
+    </style>
+    <body>
+        <div>
+            <img src= "on.jpg">
+            <img src="onl.jpg" height="400" width=1300/>
+            <u1 class="q">
+                <li><a href="https://www.myntra.com/wishlist">wishlist</a></li>
+                <li><a href="https://www.myntra.com/checkout/cart">bag</a></li>
+            </u1>
+            <ul class="b">
+                <li>
+                    <a href ="https://www.myntra.com/shop/men">MEN</a>
+                </li>
+                <li>
+                    <a href="https://www.myntra.com/shop/women">WOMEN</a>
+                </li>
+                <li>
+                    <a href="https://www.myntra.com/shop/kids"> KIDS</a>
+                </li>
+                <li>
+                    <a href="https://www.myntra.com/shop/home-living">HOME AND LIVING</a>
+                </li>
+                <li>
+                    <a href ="https://www.myntra.com/shop/offers">OFFERS</a>
+                </li>
+            </ul>
+            <input class="a" type="text" placeholder="search for products" img src="search.jpg">
+        </div>
+        
+    </body>   
+ </head>
+ </html>
